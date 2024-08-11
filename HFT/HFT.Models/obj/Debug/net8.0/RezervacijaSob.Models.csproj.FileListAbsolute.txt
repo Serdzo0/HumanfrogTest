@@ -1,0 +1,14 @@
+C:\HumanfrogTest\RezervacijaSob.Models\bin\Debug\net8.0\RezervacijaSob.Models.deps.json
+C:\HumanfrogTest\RezervacijaSob.Models\bin\Debug\net8.0\RezervacijaSob.Models.runtimeconfig.json
+C:\HumanfrogTest\RezervacijaSob.Models\bin\Debug\net8.0\RezervacijaSob.Models.dll
+C:\HumanfrogTest\RezervacijaSob.Models\bin\Debug\net8.0\RezervacijaSob.Models.pdb
+C:\HumanfrogTest\RezervacijaSob.Models\obj\Debug\net8.0\RezervacijaSob.Models.csproj.AssemblyReference.cache
+C:\HumanfrogTest\RezervacijaSob.Models\obj\Debug\net8.0\RezervacijaSob.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\HumanfrogTest\RezervacijaSob.Models\obj\Debug\net8.0\RezervacijaSob.Models.AssemblyInfoInputs.cache
+C:\HumanfrogTest\RezervacijaSob.Models\obj\Debug\net8.0\RezervacijaSob.Models.AssemblyInfo.cs
+C:\HumanfrogTest\RezervacijaSob.Models\obj\Debug\net8.0\RezervacijaSob.Models.csproj.CoreCompileInputs.cache
+C:\HumanfrogTest\RezervacijaSob.Models\obj\Debug\net8.0\RezervacijaSob.Models.dll
+C:\HumanfrogTest\RezervacijaSob.Models\obj\Debug\net8.0\refint\RezervacijaSob.Models.dll
+C:\HumanfrogTest\RezervacijaSob.Models\obj\Debug\net8.0\RezervacijaSob.Models.pdb
+C:\HumanfrogTest\RezervacijaSob.Models\obj\Debug\net8.0\RezervacijaSob.Models.genruntimeconfig.cache
+C:\HumanfrogTest\RezervacijaSob.Models\obj\Debug\net8.0\ref\RezervacijaSob.Models.dll

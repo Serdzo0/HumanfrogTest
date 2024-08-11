@@ -1,0 +1,53 @@
+﻿@model List<RoomModel>
+
+@{	
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Dobrodošli v hotel hladilnik</h1>
+</div>
+
+
+<h1>Seznam sob</h1>
+
+<table class="table table-bordered table-striped">
+	<thead>
+
+
+		<tr>
+			<th>
+				Ime sobe
+			</th>
+			<th>
+				Cena na noč
+			</th>
+			<th>
+				Kratek opis sobe
+			</th>
+			<th>
+				Dalši opis sobe
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var o in Model)
+		{
+			<tr>
+				<td>
+					@o.Name
+				</td>
+				<td>
+					@o.Cena
+				</td>
+				<td>
+					@o.ShortDescription
+				</td>
+				<td>
+					@o.LongDescription
+				</td>
+			</tr>
+		}
+
+	</tbody>
+</table>

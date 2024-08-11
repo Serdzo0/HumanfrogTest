@@ -1,0 +1,15 @@
+C:\HumanfrogTest\HFT\HFT.Models\bin\Debug\net8.0\HFT.Models.deps.json
+C:\HumanfrogTest\HFT\HFT.Models\bin\Debug\net8.0\HFT.Models.runtimeconfig.json
+C:\HumanfrogTest\HFT\HFT.Models\bin\Debug\net8.0\HFT.Models.dll
+C:\HumanfrogTest\HFT\HFT.Models\bin\Debug\net8.0\HFT.Models.pdb
+C:\HumanfrogTest\HFT\HFT.Models\obj\Debug\net8.0\HFT.Models.csproj.AssemblyReference.cache
+C:\HumanfrogTest\HFT\HFT.Models\obj\Debug\net8.0\HFT.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\HumanfrogTest\HFT\HFT.Models\obj\Debug\net8.0\HFT.Models.AssemblyInfoInputs.cache
+C:\HumanfrogTest\HFT\HFT.Models\obj\Debug\net8.0\HFT.Models.AssemblyInfo.cs
+C:\HumanfrogTest\HFT\HFT.Models\obj\Debug\net8.0\HFT.Models.csproj.CoreCompileInputs.cache
+C:\HumanfrogTest\HFT\HFT.Models\obj\Debug\net8.0\HFT.Models.sourcelink.json
+C:\HumanfrogTest\HFT\HFT.Models\obj\Debug\net8.0\HFT.Models.dll
+C:\HumanfrogTest\HFT\HFT.Models\obj\Debug\net8.0\refint\HFT.Models.dll
+C:\HumanfrogTest\HFT\HFT.Models\obj\Debug\net8.0\HFT.Models.pdb
+C:\HumanfrogTest\HFT\HFT.Models\obj\Debug\net8.0\HFT.Models.genruntimeconfig.cache
+C:\HumanfrogTest\HFT\HFT.Models\obj\Debug\net8.0\ref\HFT.Models.dll

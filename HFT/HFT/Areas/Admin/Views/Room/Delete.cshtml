@@ -1,0 +1,41 @@
+﻿
+
+@model RoomModel
+
+<form method="post">
+	<input asp-for="RoomID" hidden />
+	<div class="border p-3 mt-4">
+		<div class="row pb-2">
+			<h2 class="text-primary">Posodobi podatke sobe!</h2>
+		</div>
+		<div class="mb-3 row p-1">
+			<label asp-for="Name" class="p-0"></label>
+			<input asp-for="Name" disabled class="form-control" />
+		</div>
+		<div class="mb-3 row p-1">
+			<label asp-for="Cena" class="p-0"></label>
+			<input asp-for="Cena" disabled class="form-control" />
+		</div>
+		<div class="mb-3 row p-1">
+			<label asp-for="ShortDescription" class="p-0"></label>
+			<input asp-for="ShortDescription" disabled class="form-control" />
+
+		</div>
+		<div class="mb-3 row p-1">
+			<label asp-for="LongDescription" class="p-0"></label>
+			<input asp-for="LongDescription" disabled class="form-control" />
+
+		</div>
+		<div class="row">
+			<div class="col-6  col-md-3">
+				<button type="submit" class="btn btn-danger form-control">Izbriši</button>
+			</div>
+			<div class="col-6 col-md-3">
+				<a asp-controller="Room" asp-action="Index" class="btn btn-outline-secondary border form-control">
+					Nazaj na seznam
+				</a>
+			</div>
+		</div>
+
+	</div>
+</form>
