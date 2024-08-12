@@ -1,0 +1,15 @@
+C:\HumanfrogTest\HFT\HFT.Utility\bin\Release\net8.0\HFT.Utility.deps.json
+C:\HumanfrogTest\HFT\HFT.Utility\bin\Release\net8.0\HFT.Utility.runtimeconfig.json
+C:\HumanfrogTest\HFT\HFT.Utility\bin\Release\net8.0\HFT.Utility.dll
+C:\HumanfrogTest\HFT\HFT.Utility\bin\Release\net8.0\HFT.Utility.pdb
+C:\HumanfrogTest\HFT\HFT.Utility\obj\Release\net8.0\HFT.Utility.csproj.AssemblyReference.cache
+C:\HumanfrogTest\HFT\HFT.Utility\obj\Release\net8.0\HFT.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\HumanfrogTest\HFT\HFT.Utility\obj\Release\net8.0\HFT.Utility.AssemblyInfoInputs.cache
+C:\HumanfrogTest\HFT\HFT.Utility\obj\Release\net8.0\HFT.Utility.AssemblyInfo.cs
+C:\HumanfrogTest\HFT\HFT.Utility\obj\Release\net8.0\HFT.Utility.csproj.CoreCompileInputs.cache
+C:\HumanfrogTest\HFT\HFT.Utility\obj\Release\net8.0\HFT.Utility.sourcelink.json
+C:\HumanfrogTest\HFT\HFT.Utility\obj\Release\net8.0\HFT.Utility.dll
+C:\HumanfrogTest\HFT\HFT.Utility\obj\Release\net8.0\refint\HFT.Utility.dll
+C:\HumanfrogTest\HFT\HFT.Utility\obj\Release\net8.0\HFT.Utility.pdb
+C:\HumanfrogTest\HFT\HFT.Utility\obj\Release\net8.0\HFT.Utility.genruntimeconfig.cache
+C:\HumanfrogTest\HFT\HFT.Utility\obj\Release\net8.0\ref\HFT.Utility.dll
