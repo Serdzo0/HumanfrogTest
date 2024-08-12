@@ -30,6 +30,9 @@
 			<th>
 				Dalši opis sobe
 			</th>
+			<th>
+				Slika sobe
+			</th>
 			<th></th>
 		</tr>
 	</thead>
@@ -50,11 +53,14 @@
 					@o.LongDescription
 				</td>
 				<td>
+					<img src="@o.ImageURL" width="100%" />
+				</td>
+				<td>
 					<div class="w-75 btn-group" role="group">
-						<a asp-controller="Room" asp-action="Edit" asp-route-id="@o.RoomID" class="btn btn-primary mx-2">
+						<a asp-controller="Room" asp-action="Edit" asp-route-id="@o.ID" class="btn btn-primary mx-2">
 							<i class="bi bi-pencil-square"></i> Edit
 						</a>
-						<a asp-controller="Room" asp-action="Delete" asp-route-id="@o.RoomID" class="btn btn-danger mx-2">
+						<a asp-controller="Room" asp-action="Delete" asp-route-id="@o.ID" class="btn btn-danger mx-2">
 							<i class="bi bi-trash-fill"></i> Delete
 						</a>
 					</div>

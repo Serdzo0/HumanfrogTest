@@ -2,7 +2,7 @@
 
 
 
-<form method="post">
+<form method="post" class="row" enctype="multipart/form-data">
 	<div class="border p-3 mt-4">
 		<div class="row pb-2">
 			<h2 class="text-primary">Ustvari novo sobo!</h2>
@@ -25,8 +25,13 @@
 		</div>
 		<div class="mb-3 row p-1">
 			<label asp-for="LongDescription" class="p-0"></label>
-			@Html.EditorFor(o=>o.LongDescription)
+			<textarea asp-for="LongDescription" class="form-control"> </textarea>
 			<span asp-validation-for="LongDescription" class="text-danger"></span>
+
+		</div>
+		<div class="mb-3 row p-1">
+			<label asp-for="ImageURL" class="p-0"></label>
+			<input type="file" name="file" class="form-control"/> 
 
 		</div>
 		<div class="row">

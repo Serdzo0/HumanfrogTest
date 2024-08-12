@@ -2,6 +2,8 @@ using Microsoft.AspNetCore.Mvc;
 using HFT.DataAccess.Data;
 using HFT.Models;
 using System.Diagnostics;
+using Microsoft.AspNetCore.Authorization;
+using HFT.Utility;
 
 namespace HFT.Areas.Customer.Controllers
 {

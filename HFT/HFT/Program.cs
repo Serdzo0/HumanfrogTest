@@ -2,7 +2,10 @@ using HFT.DataAccess.Data;
 using HFT.DataAccess.Repository.IRepository;
 using HFT.DataAccess.Repository;
 using Microsoft.EntityFrameworkCore;
-
+using Microsoft.AspNetCore.Identity;
+using HFT.Utility;
+using Microsoft.AspNetCore.Identity.UI.Services;
+using SendGrid.Extensions.DependencyInjection;
 
 namespace RezervacijaSob
 {
@@ -17,10 +20,30 @@ namespace RezervacijaSob
 			builder.Services.AddDbContext<ApplicationDbContext>(options =>
 			options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
 			);
+
+
+
+			builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders();
+
+            builder.Services.ConfigureApplicationCookie(options =>
+            {
+                options.LoginPath = $"/Identity/Account/Login";
+                options.LogoutPath = $"/Identity/Account/Logout";
+                options.AccessDeniedPath = $"/Identity/Account/AccessDenied";
+
+            });
+
+            builder.Services.AddRazorPages();
+
+			builder.Services.AddScoped<IEmailSender, EmailSender>();
 			builder.Services.AddScoped<IRoomRepository, RoomRepository>();
-            builder.Services.AddScoped<IReservationRepository, ReservationRepository>();
+			builder.Services.AddScoped<IReservationRepository, ReservationRepository>();
 
-
+            builder.Services.Configure<SendGridSettings>(builder.Configuration.GetSection("SendGridSettings"));
+            builder.Services.AddSendGrid(options =>
+            {
+                options.ApiKey = builder.Configuration.GetSection("SendGridSettings").GetValue<string>("ApiKey");
+            });
             var app = builder.Build();
 
 			// Configure the HTTP request pipeline.
@@ -35,9 +58,9 @@ namespace RezervacijaSob
 			app.UseStaticFiles();
 
 			app.UseRouting();
-
+			app.UseAuthentication();
 			app.UseAuthorization();
-
+			app.MapRazorPages();
 			app.MapControllerRoute(
 				name: "default",
 				pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");

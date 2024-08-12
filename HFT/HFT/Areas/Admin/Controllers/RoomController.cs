@@ -3,16 +3,22 @@ using HFT.DataAccess.Data;
 using HFT.DataAccess.Repository.IRepository;
 using HFT.Models;
 using System.ComponentModel;
+using Microsoft.AspNetCore.Authorization;
+using HFT.Utility;
 
 namespace HFT.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = SD.Role_Admin)]
     public class RoomController : Controller
     {
         private readonly IRoomRepository roomRepository;
-        public RoomController(IRoomRepository db)
+        private readonly IWebHostEnvironment _webHostEnviroment;
+        public RoomController(IRoomRepository db, IWebHostEnvironment webHost)
         {
             roomRepository = db;
+            _webHostEnviroment = webHost;
+
         }
 
         public IActionResult Index()
@@ -28,10 +34,22 @@ namespace HFT.Areas.Admin.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult Create(RoomModel room)
+        public IActionResult Create(RoomModel room, IFormFile? file)
         {
             if (ModelState.IsValid)
             {
+                string wwwRootPath = _webHostEnviroment.WebRootPath;
+                if(file!= null)
+                {
+                    string filename = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
+                    string productPath = Path.Combine(wwwRootPath, @"images\Room");
+
+                    using (var fileStream = new FileStream(Path.Combine(productPath,filename),FileMode.Create))
+                    {
+                        file.CopyTo(fileStream);
+                    }
+                    room.ImageURL = @"\images\Room\" + filename; 
+                }
                 roomRepository.Add(room);
                 roomRepository.Save();
                 return RedirectToAction("Index");
@@ -44,7 +62,7 @@ namespace HFT.Areas.Admin.Controllers
             {
                 return NotFound();
             }
-            RoomModel? room = roomRepository.GetFirstOrDefault(u => u.RoomID == id);
+            RoomModel? room = roomRepository.GetFirstOrDefault(u => u.ID == id);
             if (room == null)
             {
                 return NotFound();
@@ -68,7 +86,7 @@ namespace HFT.Areas.Admin.Controllers
             {
                 return NotFound();
             }
-            RoomModel? room = roomRepository.GetFirstOrDefault(u => u.RoomID == id);
+            RoomModel? room = roomRepository.GetFirstOrDefault(u => u.ID == id);
             if (room == null)
             {
                 return NotFound();
@@ -82,7 +100,7 @@ namespace HFT.Areas.Admin.Controllers
             {
                 return NotFound();
             }
-            RoomModel? room = roomRepository.GetFirstOrDefault(u => u.RoomID == id);
+            RoomModel? room = roomRepository.GetFirstOrDefault(u => u.ID == id);
             if (room == null)
             {
                 return NotFound();

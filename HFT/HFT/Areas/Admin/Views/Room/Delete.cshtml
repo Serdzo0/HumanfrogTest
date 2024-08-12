@@ -3,7 +3,7 @@
 @model RoomModel
 
 <form method="post">
-	<input asp-for="RoomID" hidden />
+	<input asp-for="ID" hidden />
 	<div class="border p-3 mt-4">
 		<div class="row pb-2">
 			<h2 class="text-primary">Posodobi podatke sobe!</h2>
@@ -23,7 +23,7 @@
 		</div>
 		<div class="mb-3 row p-1">
 			<label asp-for="LongDescription" class="p-0"></label>
-			<input asp-for="LongDescription" disabled class="form-control" />
+			<textarea asp-for="LongDescription" class="form-control"> </textarea>
 
 		</div>
 		<div class="row">

@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
 namespace HFT.Models
@@ -6,7 +7,7 @@ namespace HFT.Models
 	public class RoomModel
 	{
 		[Key]
-		public int RoomID { get; set; }
+		public int ID { get; set; }
 		[Required]
 		[DisplayName("Ime Sobe")]
 		[Length(1,50,ErrorMessage = "Ime sobe mora biti med 1 in 50 znaki!")]
@@ -24,5 +25,9 @@ namespace HFT.Models
 		[DataType(DataType.MultilineText)]
 		[Length(1, 500,ErrorMessage ="Dolgi opis mora biti med 1 in 500 znaki!")]
 		public string LongDescription { get; set; }
+		[DisplayName("Naslov slike")]
+		[ValidateNever]
+		public string? ImageURL { get; set; }
+
 	}
 }

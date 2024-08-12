@@ -13,6 +13,22 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\HumanfrogTest\\HFT\\HFT\\wwwroot\\images\\Room\\46a4e3fe-7e39-4425-a736-2d2f76ba15e4.jpg",
+      "PackagePath": "staticwebassets\\images\\Room\\46a4e3fe-7e39-4425-a736-2d2f76ba15e4.jpg"
+    },
+    {
+      "Id": "C:\\HumanfrogTest\\HFT\\HFT\\wwwroot\\images\\Room\\6d46ac42-55e0-466e-b52a-813ef4f289d6.jpg",
+      "PackagePath": "staticwebassets\\images\\Room\\6d46ac42-55e0-466e-b52a-813ef4f289d6.jpg"
+    },
+    {
+      "Id": "C:\\HumanfrogTest\\HFT\\HFT\\wwwroot\\images\\Room\\cd75b149-2e53-4f78-9eca-618740a4a16a.webp",
+      "PackagePath": "staticwebassets\\images\\Room\\cd75b149-2e53-4f78-9eca-618740a4a16a.webp"
+    },
+    {
+      "Id": "C:\\HumanfrogTest\\HFT\\HFT\\wwwroot\\images\\Room\\cfb87d0f-63b5-4b41-b169-a68c87ab3a4c.jpg",
+      "PackagePath": "staticwebassets\\images\\Room\\cfb87d0f-63b5-4b41-b169-a68c87ab3a4c.jpg"
+    },
+    {
       "Id": "C:\\HumanfrogTest\\HFT\\HFT\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
