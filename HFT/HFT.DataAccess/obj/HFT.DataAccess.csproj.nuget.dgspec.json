@@ -113,7 +113,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\HumanfrogTest\\HFT\\HFT.Utility\\HFT.Utility.csproj": {
+                "projectPath": "C:\\HumanfrogTest\\HFT\\HFT.Utility\\HFT.Utility.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

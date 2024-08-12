@@ -7,9 +7,18 @@
 <div class="text-center">
     <h1 class="display-4">Dobrodošli v hotel hladilnik</h1>
 </div>
-
-
-<h1>Seznam sob</h1>
+<div class="container">
+	<div class="row pt-4">
+		<div class="col-6">
+			<h2 class="text-primary">Seznam sob</h2>
+		</div>
+		<div class="col-6 text-end">
+			<a asp-controller="Reservation" asp-action="Create" class="btn btn-primary">
+				Rezerviraj zdaj!
+			</a>
+		</div>
+	</div>
+</div>
 
 <table class="table table-bordered table-striped">
 	<thead>

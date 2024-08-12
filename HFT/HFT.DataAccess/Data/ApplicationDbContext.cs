@@ -12,7 +12,7 @@ namespace HFT.DataAccess.Data
         }
 
         public DbSet<RoomModel> Rooms { get; set; }
-
+        public DbSet<ReservationModel> Reservations { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<RoomModel>().HasData(

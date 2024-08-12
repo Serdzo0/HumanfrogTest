@@ -15,4 +15,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\HFT.Utility\HFT.Utility.csproj" />
+  </ItemGroup>
+
 </Project>

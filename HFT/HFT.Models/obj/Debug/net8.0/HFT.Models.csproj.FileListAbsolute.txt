@@ -13,3 +13,6 @@ C:\HumanfrogTest\HFT\HFT.Models\obj\Debug\net8.0\refint\HFT.Models.dll
 C:\HumanfrogTest\HFT\HFT.Models\obj\Debug\net8.0\HFT.Models.pdb
 C:\HumanfrogTest\HFT\HFT.Models\obj\Debug\net8.0\HFT.Models.genruntimeconfig.cache
 C:\HumanfrogTest\HFT\HFT.Models\obj\Debug\net8.0\ref\HFT.Models.dll
+C:\HumanfrogTest\HFT\HFT.Models\bin\Debug\net8.0\HFT.Utility.dll
+C:\HumanfrogTest\HFT\HFT.Models\bin\Debug\net8.0\HFT.Utility.pdb
+C:\HumanfrogTest\HFT\HFT.Models\obj\Debug\net8.0\HFT.Models.csproj.CopyComplete

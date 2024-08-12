@@ -18,8 +18,10 @@ namespace RezervacijaSob
 			options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
 			);
 			builder.Services.AddScoped<IRoomRepository, RoomRepository>();
+            builder.Services.AddScoped<IReservationRepository, ReservationRepository>();
 
-			var app = builder.Build();
+
+            var app = builder.Build();
 
 			// Configure the HTTP request pipeline.
 			if (!app.Environment.IsDevelopment())

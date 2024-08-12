@@ -1,0 +1,63 @@
+﻿@model ReservationModel
+
+
+
+<form method="post">
+	<div class="border p-3 mt-4">
+		<div class="row pb-2">
+			<h2 class="text-primary">Rezerviraj sobo!</h2>
+		</div>
+		<div class="mb-3 row p-1">
+			<label asp-for="Name" class="p-0"></label>
+			<input asp-for="Name" class="form-control"/>
+			<span asp-validation-for="Name" class="text-danger"> </span>
+		</div>
+		<div class="mb-3 row p-1">
+			<label asp-for="LastName" class="p-0"></label>
+			<input asp-for="LastName" class="form-control" />
+			<span asp-validation-for="LastName" class="text-danger"></span>
+		</div>
+		<div class="mb-3 row p-1">
+			<label asp-for="Email" class="p-0"></label>
+			<input asp-for="Email" class="form-control"/>
+			<span asp-validation-for="Email" class="text-danger"></span>
+		</div>
+		<div class="mb-3 row p-1">
+			<label asp-for="CheckIn" class="p-0"></label>
+			<input asp-for="CheckIn" class="form-control" />
+			<span asp-validation-for="CheckIn" class="text-danger"></span>
+		</div>
+		<div class="mb-3 row p-1">
+			<label asp-for="CheckOut" class="p-0"></label>
+			<input asp-for="CheckOut" class="form-control" />
+			<span asp-validation-for="CheckOut" class="text-danger"></span>
+		</div>
+		<div class="mb-3 row p-1">
+			<label asp-for="PhoneNumber" class="p-0"></label>
+			<input asp-for="PhoneNumber" class="form-control" />
+			<span asp-validation-for="PhoneNumber" class="text-danger"></span>
+		</div>
+		<div class="mb-3 row p-1">
+			<label asp-for="Note" class="p-0"></label>
+			@Html.EditorFor(o=>o.Note)
+			<span asp-validation-for="Note" class="text-danger"></span>
+
+		</div>
+		<div class="row">
+			<div class="col-6  col-md-3">
+				 <button type="submit" class="btn btn-primary form-control">Ustvari</button>
+			</div>
+			<div class="col-6 col-md-3">
+				<a asp-controller="Reservation" asp-action="Index" class="btn btn-outline-secondary border form-control">
+					Nazaj na seznam
+				</a>
+			</div>
+		</div>
+		
+	</div>
+</form>
+@section Scripts{
+	@{
+		<partial name="_ValidationScriptsPartial" />
+	}
+}

@@ -1502,6 +1502,20 @@
             "rid": "win"
           }
         }
+      },
+      "HFT.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.7",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.7"
+        },
+        "compile": {
+          "bin/placeholder/HFT.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HFT.Utility.dll": {}
+        }
       }
     }
   },
@@ -4096,10 +4110,16 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "HFT.Utility/1.0.0": {
+      "type": "project",
+      "path": "../HFT.Utility/HFT.Utility.csproj",
+      "msbuildProject": "../HFT.Utility/HFT.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "HFT.Utility >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.7",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.7",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.7"
@@ -4136,7 +4156,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\HumanfrogTest\\HFT\\HFT.Utility\\HFT.Utility.csproj": {
+              "projectPath": "C:\\HumanfrogTest\\HFT\\HFT.Utility\\HFT.Utility.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
