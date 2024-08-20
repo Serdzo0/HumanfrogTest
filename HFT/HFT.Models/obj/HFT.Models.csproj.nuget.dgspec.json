@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\HumanfrogTest\\HFT\\HFT.Models\\HFT.Models.csproj": {}
+    "D:\\HumanfrogTest\\HFT\\HFT.Models\\HFT.Models.csproj": {}
   },
   "projects": {
-    "C:\\HumanfrogTest\\HFT\\HFT.Models\\HFT.Models.csproj": {
+    "D:\\HumanfrogTest\\HFT\\HFT.Models\\HFT.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\HumanfrogTest\\HFT\\HFT.Models\\HFT.Models.csproj",
+        "projectUniqueName": "D:\\HumanfrogTest\\HFT\\HFT.Models\\HFT.Models.csproj",
         "projectName": "HFT.Models",
-        "projectPath": "C:\\HumanfrogTest\\HFT\\HFT.Models\\HFT.Models.csproj",
-        "packagesPath": "C:\\Users\\Uporabnik\\.nuget\\packages\\",
-        "outputPath": "C:\\HumanfrogTest\\HFT\\HFT.Models\\obj\\",
+        "projectPath": "D:\\HumanfrogTest\\HFT\\HFT.Models\\HFT.Models.csproj",
+        "packagesPath": "C:\\Users\\Serdzo\\.nuget\\packages\\",
+        "outputPath": "D:\\HumanfrogTest\\HFT\\HFT.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Uporabnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Serdzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\HumanfrogTest\\HFT\\HFT.Utility\\HFT.Utility.csproj": {
-                "projectPath": "C:\\HumanfrogTest\\HFT\\HFT.Utility\\HFT.Utility.csproj"
+              "D:\\HumanfrogTest\\HFT\\HFT.Utility\\HFT.Utility.csproj": {
+                "projectPath": "D:\\HumanfrogTest\\HFT\\HFT.Utility\\HFT.Utility.csproj"
               }
             }
           }
@@ -42,6 +43,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -95,24 +101,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\HumanfrogTest\\HFT\\HFT.Utility\\HFT.Utility.csproj": {
+    "D:\\HumanfrogTest\\HFT\\HFT.Utility\\HFT.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\HumanfrogTest\\HFT\\HFT.Utility\\HFT.Utility.csproj",
+        "projectUniqueName": "D:\\HumanfrogTest\\HFT\\HFT.Utility\\HFT.Utility.csproj",
         "projectName": "HFT.Utility",
-        "projectPath": "C:\\HumanfrogTest\\HFT\\HFT.Utility\\HFT.Utility.csproj",
-        "packagesPath": "C:\\Users\\Uporabnik\\.nuget\\packages\\",
-        "outputPath": "C:\\HumanfrogTest\\HFT\\HFT.Utility\\obj\\",
+        "projectPath": "D:\\HumanfrogTest\\HFT\\HFT.Utility\\HFT.Utility.csproj",
+        "packagesPath": "C:\\Users\\Serdzo\\.nuget\\packages\\",
+        "outputPath": "D:\\HumanfrogTest\\HFT\\HFT.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Uporabnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Serdzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -121,6 +127,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -133,6 +140,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -186,7 +198,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

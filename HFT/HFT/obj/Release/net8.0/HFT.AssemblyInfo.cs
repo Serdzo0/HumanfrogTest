@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HFT")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33ef2d8c30d7f369b666b3950ff5df7dae77c71b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c54cea8af2eff245b0d9f92b20a9e492713d7c23")]
 [assembly: System.Reflection.AssemblyProductAttribute("HFT")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HFT")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
